@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+  /*  background: none;*/
+
+
+
+}
+
+.nav-link{
+    color: lightpink
+}
+#lottie-controls.toolbar{
+    display: hidden;
+
+}
+
+ #showcase{
+   /*background-image: url("/city-png-33552.png");*/
+    background-size:cover;
+    background-position: center;
+    height: 100vh;  
+    display: flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#bio {
+    margin-top: 15rem;
+
+}
+img.round{
+    border-radius: 40%;
+    border-style: double;
+    border-color: lightpink;
+    /*margin: 40px;*/
+}
+div.pic{
+    border-radius: 40%;
+  /*  margin: 40px;*/
+}
+div.card{
+    border-style: double;
+    border-color: lightpink;
+    margin: 25px;
+}
+a{
+    color: lightpink
+
+}
+a:hover{
+    color: rgba(42, 208, 150, 0.824);
+}
+
+
+.icons{
+    padding: 30px;
+    
+   
+}
+
+
+
+ion-icon {
+    color: black;
+    text-shadow: 30px;
+    font-size: 120px;
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    
+  
+}   
+
+a.ionicons:hover{
+    
+    box-shadow: lightpink;
+}
